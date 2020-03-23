@@ -11,7 +11,7 @@ import com.capgemini.greatoutdoors.dto.RetailerInventoryTrackDTO;
 
 public class RetailerInventoryShelfTimeRepository {
 	public static List<RetailerInventoryShelfTimeDTO> list=new ArrayList();
-	public RetailerInventoryShelfTimeRepository()
+	static
 	{
 		RetailerInventoryShelfTimeDTO RetailerInventoryShelfTimeDTOObj1 = new RetailerInventoryShelfTimeDTO("naveen12","naveen",(byte)1,"camping","camping1","poiuy",5,5);
 		RetailerInventoryShelfTimeDTO RetailerInventoryShelfTimeDTOObj2 = new RetailerInventoryShelfTimeDTO("navin22","navin",(byte)2,"camping","camping2","poiyy",5,6);

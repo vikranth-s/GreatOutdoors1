@@ -12,7 +12,7 @@ import com.capgemini.greatoutdoors.dto.RetailerInventoryTrackDTO;
 public class RetailerInventoryTrackRepository {
 	public static List<RetailerInventoryTrackDTO> list=new ArrayList();
 	private java.util.Date date;
-	public RetailerInventoryTrackRepository()
+	static
 	{
 		RetailerInventoryTrackDTO RetailerInventoryTrackDTOObj1 = new RetailerInventoryTrackDTO("naveen",(byte)1,"xyzxyz","qwert","2020/02/20","2020/02/22","2020/02/23");
 		RetailerInventoryTrackDTO RetailerInventoryTrackDTOObj2= new RetailerInventoryTrackDTO("javeen",(byte)2,"poiuyt","qwtre","2020/02/21","2020/02/22","2020/02/23");
